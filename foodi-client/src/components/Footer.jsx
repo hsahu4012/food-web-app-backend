@@ -2,10 +2,12 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="max-w-screen-2xl container mx-auto left-0 right-0">
       <footer className="footer xl:px-24 py-10 px-4 text-base-content">
         <aside>
-          <img src="/logo.png" alt="" />
+          <a href="/">
+            <img src="/logo.png" alt="" />
+          </a>
           <p className="my-3 md:w-40">
             Savor the artistry where every dish is a culinary masterpiece
           </p>
@@ -31,7 +33,7 @@ const Footer = () => {
           <a className="link link-hover">Social media</a>
         </nav>
       </footer>
-        <hr />
+      <hr />
       <footer className="footer items-center xl:px-24 px-4 py-4 mt-2">
         <aside className="items-center grid-flow-col">
           <p>Copyright © 2023 - All right reserved</p>
